@@ -77,4 +77,4 @@ AUTO_DELETE =  environ.get('AUTO_DELETE', 'True')
 
 if SELF_DELETE == "True":
     
-    SELF_DELETE = True
+    SELF_DELETE == True
