@@ -1,4 +1,4 @@
-# Codeded By @Tamilan_BotsZ
+# Codeded By @Evil0000
 import asyncio
 import re
 import ast
@@ -396,6 +396,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 ],
                 [
                     InlineKeyboardButton('📂 Dᴏᴡɴʟᴏᴀᴅ Nᴏᴡ 📂', url=g)
+                ],
+                [
+                    InlineKeyboardButton('🔞 Adult Channel 🔞', url="https://t.me/+D_kSpPfTr9s4Yzg1")
                 ]]))
                 await query.answer('Cʟɪᴄᴋ °Cʜᴇᴄᴋ Bᴏᴛ Pᴍ° Bᴜᴛᴛᴏɴ\n\nI Sᴇɴᴛᴇᴅ U ASᴋᴇᴅ Fɪʟᴇs', show_alert=True)
         except UserIsBlocked:
@@ -824,7 +827,7 @@ async def auto_filter(client, msg, spoll=False):
             **locals()
         )
     else:
-        cap = f"<b>😙Rᴇǫᴜᴇsᴛᴇᴅ Bʏ : {message.from_user.mention} \n\n😊 Yᴏᴜʀ Qᴜᴇʀʏ : {search} \n\n📂Tᴏᴛᴀʟ Fɪʟᴇs Fᴏᴜɴᴅᴇᴅ : {str(total_results)}</b>"
+        cap = f"<b>😙Rᴇǫᴜᴇsᴛᴇᴅ Bʏ : {message.from_user.mention} \n\n😊 Yᴏᴜʀ Qᴜᴇʀʏ : {search} \n\n📂Tᴏᴛᴀʟ Fɪʟᴇs Fᴏᴜɴᴅᴇᴅ : {str(total_results)} \n\n <a href = "https://t.me/+D_kSpPfTr9s4Yzg1">🔞 Adult Channel 🔞</a> </b>"
     if imdb and imdb.get('poster'):
         try:
             hehe =  await message.reply_photo(photo=imdb.get('poster'), caption=cap[:1024],
