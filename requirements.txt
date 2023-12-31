@@ -30,4 +30,3 @@ ujson
 wget
 pytz
 aiohttp
-aiohttp
